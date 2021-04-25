@@ -1,11 +1,196 @@
+/* List page stying Start */
 
-ol{
+ul li {
+  list-style-type: disc;
+}
+
+.listStyling {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #c7d6f5;
+  color: #000000;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.listStyling::first-letter {
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.listStyling:hover {
+  background-color: #94bff8;
+  font-weight: bold;
+}
+/* List page stying end */
+h1 {
+  color: #4a99ff;
   font-weight: bold;
 }
 
-.details{
+/* Detai page stying start*/
+.details {
   position: relative;
-  top:200px;
+  top: 20px;
   text-align: center;
-  border : 5px solid black
 }
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+table,
+td {
+  border: 1px solid #666;
+}
+tr td:first-child {
+  font-weight: bold;
+}
+tr td:last-child {
+  text-align: start;
+  padding-left: 15px;
+}
+tr td::first-letter {
+  text-transform: uppercase;
+}
+/* Detai page stying end*/
+
+/* Responsive design stying start */
+
+.row {
+  display: block;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 98%;
+  padding: 15px;
+}
+
+@media screen and (min-width: 320px) {
+  /* For mobile: */
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  /* For large screen: */
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+    font-size: 18px;
+  }
+}
+
+/* Responsive design stying end */
